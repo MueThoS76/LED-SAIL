@@ -44,6 +44,7 @@ File fsUploadFile;                      //Hält den aktuellen Upload
 
 
 
+
 //  ##########################################################################   SETUP ########################################################
 void setup() {
   // Serielle Schnittstelle öffnen (Bei der Rate sieht man auch den boot)
@@ -109,8 +110,8 @@ void setup() {
   ArduinoOTA.begin();                       // https://arduino-esp8266.readthedocs.io/en/latest/ota_updates/readme.html
 
   // Starte die MSGEQ-Lib
-  MSGEQ7.begin();
-
+  //MSGEQ7.begin();
+   // verursacht reboots
 }
 
 
